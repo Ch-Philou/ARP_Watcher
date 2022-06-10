@@ -1,0 +1,24 @@
+{
+	"Free_SMS":{
+		"Login": "",
+		"Pass": ""
+		},
+	"syslog":{
+		"server":"192.168.0.211",
+		"Protocol":"TCP",
+		"facility":17,
+		"prio_unk":4,
+		"prio_kno":5
+	},
+	"Conf":{
+		"Network":"192.168.0.0/24",
+		"Last_ARP_File":"/Scripts/ARP_Watcher/Elements/Last_ARP.json",
+		"WhiteList_ARP_File":"/Scripts/ARP_Watcher/Elements/WhiteList.json",
+		"NIC_Manufacturer_File":"/Scripts/ARP_Watcher/Elements/NIC_Manufacturer.json",
+		"Grace_File":"/Scripts/ARP_Watcher/Elements/Grace.json",
+		"Log_ARP": "/var/log/ARP_Watcher/ARP_Change.txt",
+		"Log_Level": 3,
+		"Scan_Report": "/Scripts/ARP_Watcher/Scans/Res_<MAC_Address>.txt",
+		"Log_Fold" : "/var/log/ARP_Watch/"
+		}
+}
